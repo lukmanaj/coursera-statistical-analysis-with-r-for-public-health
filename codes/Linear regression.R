@@ -4,7 +4,7 @@ library(readr)
 # Preliminaries
 
 
-COPD <- read_csv("COPD_student_dataset.csv")
+COPD <- read_csv("codes/COPD_student_dataset.csv")
 COPD
 
 # Examining the dataset
