@@ -49,3 +49,4 @@ COPD$AtrialFib <- as.integer(COPD$AtrialFib)
 r1 <- lm(MWT1Best~factor(Diabetes)+factor(AtrialFib)+factor(Diabetes*AtrialFib), data=COPD)
 summary(r1)
 
+# Linear Regression end
