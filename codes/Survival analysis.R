@@ -34,4 +34,3 @@ table(data$age,broad_age,exclude = NULL)
 km_br_age_fit <- survfit(Surv(fu_time,death) ~ broad_age)
 plot(km_br_age_fit)
 survdiff(Surv(fu_time,death) ~broad_age)
-# R is interesting
